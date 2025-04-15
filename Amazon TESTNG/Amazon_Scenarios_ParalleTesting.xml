@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite"  parallel="tests">
+	<test thread-count="5" name="TestinChrome">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="amazon_Test.Amazon_Testcase1.java" />
+			<class name="amazon_Test.Amazon_Testcase2.java" />
+			<class name="amazon_Test.Amazon_Testcase3.java" />
+			<class name="amazon_Test.Amazon_Testcase4.java" />
+			<class name="amazon_Test.Amazon_Testcase5.java" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test thread-count="5" name="TestinEdge">
+		<parameter name="browser" value="Microsoft Edge"></parameter>
+		<classes>
+			<class name="amazon_Test.Amazon_Testcase1.java" />
+			<class name="amazon_Test.Amazon_Testcase2.java" />
+			<class name="amazon_Test.Amazon_Testcase3.java" />
+			<class name="amazon_Test.Amazon_Testcase4.java" />
+			<class name="amazon_Test.Amazon_Testcase5.java" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
