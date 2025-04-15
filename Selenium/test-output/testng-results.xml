@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-10T01:15:49 EST" name="Default suite" finished-at="2024-12-10T01:16:17 EST" duration-ms="27814">
+    <groups>
+    </groups>
+    <test started-at="2024-12-10T01:15:49 EST" name="Default test" finished-at="2024-12-10T01:16:17 EST" duration-ms="27814">
+      <class name="TestNG.DataProvider_LoginCredentials">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:TestNG.DataProvider_LoginCredentials@5f049ea1]" started-at="2024-12-10T01:15:49 EST" name="login" data-provider="data1" finished-at="2024-12-10T01:15:55 EST" duration-ms="5746" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sujani@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tshirt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:TestNG.DataProvider_LoginCredentials@5f049ea1]" started-at="2024-12-10T01:15:55 EST" name="login" data-provider="data1" finished-at="2024-12-10T01:16:13 EST" duration-ms="17804" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sujani11@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[glass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:TestNG.DataProvider_LoginCredentials@5f049ea1]" started-at="2024-12-10T01:16:13 EST" name="login" data-provider="data1" finished-at="2024-12-10T01:16:17 EST" duration-ms="4211" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sujani12@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[keys]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- TestNG.DataProvider_LoginCredentials -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
